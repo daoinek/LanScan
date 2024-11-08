@@ -22,7 +22,7 @@
 - (void)lanScanHasUpdatedProgress:(NSInteger) counter address:(NSString*) address;
 @end
 
-@interface LanScan : NSObject
+@interface lanScan : NSObject
 
 @property(nonatomic,weak) id<LANScanDelegate> delegate;
 
