@@ -4,7 +4,7 @@
 //  Created by Marcin Kielesiński on 4 July 2018
 //
 
-#import "lanScan.h"
+#import "LanScan.h"
 #import <SystemConfiguration/CaptiveNetwork.h>
 #include <ifaddrs.h>
 #include <arpa/inet.h>
@@ -48,7 +48,7 @@
 #define ROUNDUP(a) ((a) > 0 ? (1 + (((a) - 1) | (sizeof(long) - 1))) : sizeof(long))
 #endif
 
-@interface lanScan ()
+@interface LanScan ()
 
 @property (nonatomic, retain) NSString *localAddress;
 @property (nonatomic,retain) NSString *baseAddress;
@@ -60,7 +60,7 @@
 
 @end
 
-@implementation lanScan
+@implementation LanScan
 
 - (id)initWithDelegate:(id<LANScanDelegate>)delegate {
     deb(@"init scanner");
