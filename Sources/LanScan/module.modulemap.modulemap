@@ -1,0 +1,10 @@
+//
+//  module.modulemap.modulemap
+//  LanScan
+//
+//  Created by Kostiantyn Bershov on 09.11.2024.
+//
+
+module LanScan {
+    header "LanScan.h"
+}
