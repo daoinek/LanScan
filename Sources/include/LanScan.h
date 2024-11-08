@@ -1,7 +1,7 @@
 //
 //  LAN Scan
 //
-//  Created by Marcin Kielesiński on 4 July 2018
+//  Created by Kostiantyn Bershov
 //
 
 #import <Foundation/Foundation.h>

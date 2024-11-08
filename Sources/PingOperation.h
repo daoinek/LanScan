@@ -1,8 +1,7 @@
 //
 //  PingOperation.h
 //
-//  Created by Michael Mavris on 03/11/2016.
-//  Copyright © 2016 Miksoft. All rights reserved.
+//  Created by Kostiantyn Bershov
 //
 
 #import "SimplePing.h"
