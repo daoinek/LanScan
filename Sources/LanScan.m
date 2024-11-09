@@ -110,7 +110,6 @@
 }
 
 - (void)start {
-    
 
     //Initializing the dictionary that holds the Brands name for each MAC Address
     self.brandDictionary = [[NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"]] mutableCopy];
